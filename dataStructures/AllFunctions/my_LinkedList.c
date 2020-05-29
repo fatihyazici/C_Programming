@@ -1,7 +1,9 @@
 
-/* MY LINKED LIST FUNCTIONS */
+/* MY SINGLY LINKED LIST FUNCTIONS */
 /*Fatih YAZICI*/
 
+
+/*Each node 8 Bytes*/
 
 
 #include <stdio.h>
@@ -74,7 +76,7 @@ void print_LinkedList(node *r)
 
         r = r->next;    //move to next link
     }
-    printf("\r\n");
+    printf("\n");
 }
 
 /**********************************************
@@ -103,7 +105,6 @@ void print_Reverse_LinkedList_Recursion(node *r)
     {
         printf("\n");
         return;
-
     }
 
     print_Reverse_LinkedList_Recursion(r->next);
@@ -121,7 +122,7 @@ void Print_CircledLinkedList(node *r)
     
     node *iter = r;
 
-    printf("%d " , iter->data);
+    printf("%d " , iter->data);//print first element
 
     while(iter != r)
     {
@@ -156,7 +157,7 @@ void InsertToPlace_LinkedList(node *head, int newElement , int place)
 {
     node *iter = head;
 
-    for(int i = 0; i<place-1;i++)
+    for(int i = 0; i < place - 1 ;i++)
     {
         iter = iter->next;  //move to previous element
     }
