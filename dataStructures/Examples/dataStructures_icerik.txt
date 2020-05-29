@@ -1,0 +1,34 @@
+
+
+icerik
+
+
+* Bağlı Liste(Linked list)
+
+    - Doğrusal Bağlı Liste
+    - Dairesel Bağlı Liste 
+    - Çift Yönlü Bağlı Liste
+
+* ADT
+
+    - Stack
+    - Queue
+
+* Trees
+
+    - Binary Trees
+    - BST
+    - AVL, Red Black vs.
+
+
+* Heap
+
+* Graph
+    - MST
+    - Shortest Path
+    - Max Flow
+
+* Hash
+
+* Matrisler
+
